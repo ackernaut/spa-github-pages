@@ -16,7 +16,7 @@ export default function App() {
         href="https://github.com/ackernaut/spa-github-pages"
         style={s.repoLink}
         {...s.link}
-      >https://github.com/rafrex/spa-github-pages</Interactive>
+      >https://github.com/ackernaut/spa-github-pages</Interactive>
 
       <nav style={s.breadcrumbs}>
         <Breadcrumbs />
