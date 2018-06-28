@@ -1,6 +1,6 @@
 # Single Page Apps for GitHub Pages
 
-[Live example][liveExample]  
+[Live example][liveExample]
 
 This is a lightweight solution for deploying single page apps with [GitHub Pages][ghPagesOverview]. You can easily deploy a [React][react] single page app with [React Router][reactRouter] `<BrowserRouter />`, like the one in the [live example][liveExample], or a single page app built with any frontend library or framework.
 
@@ -16,7 +16,7 @@ A quick SEO note - while it's never good to have a 404 response, it appears base
 
 
 ## Usage instructions
-*For general information on using GitHub Pages please see [GitHub Pages Basics][ghPagesBasics], note that pages can be [User, Organization or Project Pages][ghPagesTypes]*  
+*For general information on using GitHub Pages please see [GitHub Pages Basics][ghPagesBasics], note that pages can be [User, Organization or Project Pages][ghPagesTypes]*
 &nbsp;
 
 **Basic instructions** - there are two things you need from this repo for your single page app to run on GitHub Pages
@@ -26,7 +26,7 @@ A quick SEO note - while it's never good to have a 404 response, it appears base
       - Note that the redirect script must be placed *before* your single page app script in your `index.html` file
 &nbsp;
 
-**Detailed instructions** - using this repo as a boilerplate for a React single page app hosted with GitHub Pages  
+**Detailed instructions** - using this repo as a boilerplate for a React single page app hosted with GitHub Pages
   1. Clone this repo (`$ git clone https://github.com/rafrex/spa-github-pages.git`)
   2. Delete the `.git` directory (`cd` into the `spa-github-pages` directory and run `$ rm -rf .git`)
   3. Instantiate the repository
@@ -45,6 +45,7 @@ A quick SEO note - while it's never good to have a 404 response, it appears base
       - Update your `CNAME` and/or `A` record with your DNS provider
       - Run `$ dig your-subdomain.your-domain.tld` to make sure it's set up properly with your DNS (don't include `http://`)
   5. Set up without using a custom domain (optional)
+      - Ignore the steps below and check this out: [setting up project page](https://github.com/rafrex/spa-github-pages/issues/25)
       - Delete the [`CNAME` file][cnameFile]
       - If you are creating a User or Organization Pages site, then that's all you need to do
       - If you are creating a Project Pages site, (i.e. your site's address is `username.github.io/repo-name`):
