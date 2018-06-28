@@ -3,8 +3,8 @@ const webpack = require('webpack');
 module.exports = {
   entry: `${__dirname}/src/index.js`,
   output: {
-    path: `${__dirname}/build`,
-    publicPath: '/build/',
+    path: `${__dirname}/docs/build`,
+    publicPath: '/spa-github-pages/build/',
     filename: 'bundle.js',
   },
 
